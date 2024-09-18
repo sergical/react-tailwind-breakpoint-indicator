@@ -1,0 +1,32 @@
+{
+  "name": "react-tailwind-breakpoint-indicator",
+  "version": "1.0.0",
+  "description": "A React component that indicates the current Tailwind breakpoint in development mode",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "breakpoint",
+    "responsive",
+    "development"
+  ],
+  "author": "Sergiy Dybskiy",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergical/react-tailwind-breakpoint-indicator"
+  },
+  "bugs": {
+    "url": "https://github.com/sergical/react-tailwind-breakpoint-indicator/issues"
+  },
+  "homepage": "https://github.com/sergical/react-tailwind-breakpoint-indicator#readme"
+}
