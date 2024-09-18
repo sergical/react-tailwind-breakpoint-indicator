@@ -18,8 +18,8 @@
   "author": "Sergiy Dybskiy",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/sergical/react-tailwind-breakpoint-indicator/issues"
   },
-  "homepage": "https://github.com/sergical/react-tailwind-breakpoint-indicator#readme"
+  "homepage": "https://github.com/sergical/react-tailwind-breakpoint-indicator#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.2"
+  }
 }
