@@ -14,6 +14,7 @@ First update your `tailwind.config.js|ts` to include the content of this package
 
 ```ts
 content: [
+  ...existing content,
   "./node_modules/react-tailwind-breakpoint-indicator/**/*.{js,jsx,ts,tsx}",
 ],
 ```
